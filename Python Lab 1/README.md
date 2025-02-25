@@ -1,13 +1,7 @@
-# Python Basics & Environment Setup
-<div style="text-align: center;">
-    <span style="background: linear-gradient(to right, #2193b0, #6dd5ed); 
-                color: white; 
-                padding: 5px 15px; 
-                font-size: 18px;
-                border-radius: 5px;">
-        MCEN 1030
-    </span>
+<div align="center">
+<img src="https://img.shields.io/badge/MCEN-1030-2193b0?style=for-the-badge" width="200">
 </div>
+# Python Basics & Environment Setup
 
 ## Table of Contents
 1. [Python vs MATLAB Syntax](#1-python-vs-matlab-syntax)
@@ -130,7 +124,6 @@ print(f"Power: {a ** b}")           # 1000
 # / always returns float
 # ** is for power (instead of ^)
 ```
-
 ### String Operations
 ```python
 # String concatenation
@@ -270,17 +263,9 @@ or [Google Colab](https://colab.research.google.com/)
    - Auto-imports
    - Enabled automatically with Python extension
 
-<div style="text-align: center;">
-    <span style="background: linear-gradient(to right, #ff6b6b, #4ecdc4); 
-                color: white; 
-                padding: 5px 15px;
-                font-size: 16px;
-                border-radius: 5px;">
-        Practice Exercises Optional
-    </span>
-</div>
 
-### Practice Exercises:
+
+### Practice Exercises Optional:
 
 1. Create variables of different types and print their types
 2. Write a program that converts temperature from Celsius to Fahrenheit
