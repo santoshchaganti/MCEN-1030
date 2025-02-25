@@ -1,6 +1,7 @@
 <div align="center">
 <img src="https://img.shields.io/badge/MCEN-1030-2193b0?style=for-the-badge" width="200">
 </div>
+
 # Python Basics & Environment Setup
 
 ## Table of Contents
