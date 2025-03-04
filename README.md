@@ -22,7 +22,7 @@ This repository contains materials and Projects for MCEN-1030, an introductory c
 ## Getting Started
 1. Clone this repository
 ```bash
-git clone https://github.com/katherineramos/MCEN-1030.git
+git clone https://github.com/santoshchaganti/MCEN-1030.git
 ```
 2. Navigate to the desired project or assignment or lab folder
 3. Open the MATLAB/Python files in your preferred editor
