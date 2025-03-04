@@ -11,26 +11,20 @@ clc;
 %% Part 1: Vehicle Ownership Cost Simulation
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-% TODO: Define constants and vehicle parameters
+% TODO: Initialize constants and vehicle parameters
 % Define years (12) and annual mileage (12,000)
 
-% TODO: Define vehicle types and names
 % Create cell arrays for vehicle types (Ex: Gasoline, Electric, Hybrid)
 % Create cell arrays for vehicle names (Ex: Toyota Camry, Tesla Model 3, Toyota Prius)
 
-% TODO: Define purchase price for each vehicle type
 % Set purchase prices for gasoline, electric, and hybrid vehicles
 
-% TODO: Define efficiency for each vehicle type 
 % Set efficiency values (MPG for gas/hybrid, miles per kWh for EV)
 
-% TODO: Define fuel and energy costs
 % Set fuel prices ($/gallon for gas/hybrid, $/kWh for EV)
 
-% TODO: Define yearly maintenance costs
 % Set annual maintenance costs for each vehicle type
 
-% TODO: Calculate yearly fuel/energy costs
 % Calculate using formula: (miles_per_year / efficiency) * fuel_price
 
 % TODO: Initialize total cost matrix
