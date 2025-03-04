@@ -33,6 +33,16 @@ clc;
 % TODO: Compute total ownership cost for each vehicle type
 % Use the FOR LOOP(1:3) AND THEN CALL THE FUNCTION  to calculate costs for each vehicle and store in total_costs matrix
 
+%%%%%%%%%%%%%%%%%%%
+%% FUNCTION PART 1
+%%%%%%%%%%%%%%%%%%%
+% TODO: Create a function to compute total ownership cost
+% Example Function signature: totalCost = calculate_total_cost(price, fuel_cost, maint_cost, years)
+% This function should:
+% 1. Initialize a totalCost array
+% 2. Set first year cost (including purchase price)
+% 3. Calculate subsequent years by adding fuel and maintenance costs to previous year
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% DELIVERABLES FOR PART 1
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -48,6 +58,19 @@ clc;
 
 % TODO: Compute break-even analysis
 % Call the find_break_even function with total_costs
+
+%%%%%%%%%%%%%%%%%%%
+%% FUNCTION PART 2
+%%%%%%%%%%%%%%%%%%%
+% TODO: Create a function to compute break-even year
+% Example Function signature: [breakEvenEV, breakEvenHybrid] = find_break_even(cost_matrix)
+% This function should:
+% 1. Compare EV vs. Gasoline costs for each year
+% 2. Find the first year where EV becomes cheaper (if it exists)
+% 3. Compare Hybrid vs. Gasoline costs for each year
+% 4. Find the first year where Hybrid becomes cheaper (if it exists)
+% 5. Return -1 if no break-even point exists
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% DELIVERABLES FOR PART 2
@@ -77,45 +100,6 @@ clc;
 % Initialize stopData cell array to store stop locations
 % Call for loop to simulate_trip for each vehicle type
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% DELIVERABLES FOR PART 3
-%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% TODO: Display trip results
-% Show number of stops, total cost, and total trip time for each vehicle
-
-% TODO: Create trip progress visualization
-% Plot distance traveled vs. number of stops for each vehicle type
-
-% TODO: Create total trip time comparison bar graph
-% Create a bar chart comparing total trip time across vehicle types
-
-% Save results
-% TODO: Save the total_costs and trip_results variables to a .mat file
-
-% TODO: Display completion message
-
-%%%%%%%%%%%%%%%%%%%
-%% FUNCTION PART 1
-%%%%%%%%%%%%%%%%%%%
-% TODO: Create a function to compute total ownership cost
-% Example Function signature: totalCost = calculate_total_cost(price, fuel_cost, maint_cost, years)
-% This function should:
-% 1. Initialize a totalCost array
-% 2. Set first year cost (including purchase price)
-% 3. Calculate subsequent years by adding fuel and maintenance costs to previous year
-
-%%%%%%%%%%%%%%%%%%%
-%% FUNCTION PART 2
-%%%%%%%%%%%%%%%%%%%
-% TODO: Create a function to compute break-even year
-% Example Function signature: [breakEvenEV, breakEvenHybrid] = find_break_even(cost_matrix)
-% This function should:
-% 1. Compare EV vs. Gasoline costs for each year
-% 2. Find the first year where EV becomes cheaper (if it exists)
-% 3. Compare Hybrid vs. Gasoline costs for each year
-% 4. Find the first year where Hybrid becomes cheaper (if it exists)
-% 5. Return -1 if no break-even point exists
-
 %%%%%%%%%%%%%%%%%%%
 %% FUNCTION PART 3 
 %%%%%%%%%%%%%%%%%%%
@@ -142,3 +126,20 @@ clc;
     % - Compute total cost from total distance
     % - Compute total time from driving + number of stops
     % This approach is simpler but less detailed
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% DELIVERABLES FOR PART 3
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TODO: Display trip results
+% Show number of stops, total cost, and total trip time for each vehicle
+
+% TODO: Create trip progress visualization
+% Plot distance traveled vs. number of stops for each vehicle type
+
+% TODO: Create total trip time comparison bar graph
+% Create a bar chart comparing total trip time across vehicle types
+
+% Save results
+% TODO: Save the total_costs and trip_results variables to a .mat file
+
+% TODO: Display completion message
