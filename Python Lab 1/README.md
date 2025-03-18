@@ -266,7 +266,11 @@ or [Google Colab](https://colab.research.google.com/)
 
 
 
-### Practice Exercises Optional:
+<p align="center">
+  <strong style="font-size: 5em;">Practice Exercises</strong>
+</p>
+
+---
 
 1. Create variables of different types and print their types
 2. Write a program that converts temperature from Celsius to Fahrenheit
